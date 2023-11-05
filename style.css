@@ -1,0 +1,31 @@
+#centre{
+    width: 900px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    font-weight: 600;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.imagediv{
+    width: 200px;
+    height: 300px;
+    /* background-color: yellow; */
+    position: absolute;
+    overflow: hidden;
+}
+
+.imagediv img{
+    transform: translateY(90%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
